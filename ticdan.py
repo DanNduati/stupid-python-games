@@ -1,5 +1,6 @@
 import time
 import serial
+import os
 #create an array for board positions 
 board= [' ',' ',' ',' ',' ',' ',' ',' ',' ']
 #starting player and mark
@@ -13,6 +14,7 @@ stop = 1
 
 game = running
 def drawboard():
+	os.system('clear')#use cls instead for windows os
 	print("%c | %c | %c") %(board[0],board[1],board[2])
 	print("__|__ |__")
 	print("%c | %c | %c") %(board[3],board[4],board[5])
