@@ -1,7 +1,7 @@
 import time 
 import serial
 import random
-3
+
 
 selection = {1:"Rock",2:"Paper",3:"Scissors"}
 #print(len(selection))
