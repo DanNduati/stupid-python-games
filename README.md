@@ -1,5 +1,5 @@
 # stupid-python-games
-## terminal rock paper scissors tic tac toe in python
+terminal rock paper scissors tic tac toe in python
 # Scripts
 ## 1. rps.py
 This is the rock paper scissors game. In this game, user gets the first chance to pick the option among Rock, paper and scissor. After that computer select from remaining two choices(randomly), then winner is decided as per the rules.
